@@ -1,0 +1,14 @@
+These 10 sound files (choke.wav, clap.wav, cluck.wav, huuuh.wav,
+pop.wav, popp.wav, snap.wav, sssssss.wav, ssst.wav, and uuunn.wav) are
+copyright 2016 by Matt Wright and part of the Kadenze course
+"Programming Max: Structuring Interactive Software for Digital Arts"
+(https://www.kadenze.com/courses/programming-max-structuring-interactive-software-for-digital-arts/info)
+
+They are made available under the Creative Commons Attribution 4.0
+International Public License:
+https://creativecommons.org/licenses/by/4.0/
+
+In short, you may share these sound files and adapt them any way you
+desire (such as using them to create your own music) as long as you
+attribute Matt Wright as the creator of these sounds, link to the
+license, and indicate if changes were made.
