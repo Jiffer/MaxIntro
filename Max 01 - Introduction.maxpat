@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1869.0, 229.0, 791.0, 787.0 ],
+		"rect" : [ 687.0, 229.0, 791.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1638,7 +1638,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 59.200000882148743, 957.0, 199.0, 60.0 ],
-									"presentation_linecount" : 4,
 									"text" : "If you want to have one that you can edit and have all change you need an Abstraction (save patch as a file that can be re-used)"
 								}
 
@@ -3055,7 +3054,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 870.0, 534.333347678184509, 175.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "<- first val sets target value, second value sets time"
 								}
 
@@ -3749,79 +3747,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 208.5, 18.0, 150.0, 167.0 ],
 					"text" : "On the plate:\n\n- Intro to Max\n- objects\n- patch/edit\n- inspector\n- help / reference\n- Max Console\n- messages\n- subpatching\n- presentation mode\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 1817.0, 316.0, 893.0, 583.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"linecount" : 20,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 41.0, 40.0, 316.0, 288.0 ],
-									"text" : "Reference and Tutorials\n\nHelp -> Reference or cmd/ctrl + shift + R\n\nThis brings you to the Max help browser. It's kind of like a web browser for all help files. \n\nHti the Home icon in top left to get home\n\nScroll down and click on Max Tutorials on left\nSub-categories will be on right\n\nRead the Tips & Shortcuts:\nHelp > Reference > Max > Tutorials\n\nWork through Max Tutorials 1-3\n\nMax Basic Tutorial 1: Hello\nMax Basic Tutorial 2: Bang!\nMax Basic Tutorial 3: Numbers and Lists\n"
-								}
-
-							}
- ],
-						"lines" : [  ]
-					}
-,
-					"patching_rect" : [ 29.0, 708.0, 85.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p forNextTime"
 				}
 
 			}
@@ -5445,7 +5370,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 56.0, 719.59999817609787, 617.0, 118.0 ],
-									"presentation_linecount" : 5,
 									"text" : "Locking and unlocking\n- cmd/ctrl + click on patch background\n- cmd/ctrl + e\n- click the lock/unlock symbol in the lower left (don't use this one!)\n"
 								}
 
@@ -5531,7 +5455,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 396.0, 84.0, 386.0, 60.0 ],
-									"presentation_linecount" : 5,
 									"text" : "Use the inspector (i) over there ->\nto change the font"
 								}
 
