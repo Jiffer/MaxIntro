@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 70.0, 87.0, 1336.0, 779.0 ],
+		"rect" : [ 80.0, 100.0, 1336.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 255.0, 87.0, 1151.0, 779.0 ],
+						"rect" : [ 255.0, 100.0, 1151.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2255,7 +2255,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 728.0, 145.0, 678.0, 721.0 ],
+						"rect" : [ 376.0, 144.0, 841.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2285,6 +2285,18 @@
 						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 418.0, 89.0, 98.0, 22.0 ],
+									"text" : "read fallFog.mov"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"format" : 6,
 									"id" : "obj-3",
@@ -2579,8 +2591,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 446.0, 121.0, 98.0, 22.0 ],
-									"text" : "read fallFog.mov"
+									"patching_rect" : [ 454.0, 118.0, 123.0, 22.0 ],
+									"text" : "read Paris1920s.mp4"
 								}
 
 							}
@@ -2627,6 +2639,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 6 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -2712,6 +2731,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
