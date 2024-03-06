@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 172.0, 298.0, 1246.0, 600.0 ],
+						"rect" : [ 172.0, 167.0, 1246.0, 600.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -85,6 +85,18 @@
 						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 843.0, 860.0, 29.5, 22.0 ],
+									"text" : "* 2."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"annotation" : "## Convert BEAP module output (control voltages/MIDI) to VIZZIE data ##",
 									"bgmode" : 1,
@@ -862,8 +874,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 3 ],
+									"destination" : [ "obj-42", 0 ],
 									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 3 ],
+									"source" : [ "obj-42", 0 ]
 								}
 
 							}
@@ -7209,7 +7228,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 238.0, 336.0, 75.0, 22.0 ],
-									"text" : "0.385947"
+									"text" : "0.279667"
 								}
 
 							}
