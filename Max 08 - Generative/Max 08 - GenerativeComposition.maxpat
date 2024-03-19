@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -48,14 +48,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 267.0, 985.0, 599.0 ],
+						"rect" : [ 80.0, 267.0, 985.0, 599.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -83,6 +83,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -3135,7 +3136,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 438.25, 274.0, 29.5, 22.0 ],
-									"text" : "48"
+									"text" : "46"
 								}
 
 							}
@@ -6567,8 +6568,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6612,8 +6613,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6718,7 +6719,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "signal" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 304.0, 859.0, 54.0, 22.0 ],
 													"text" : "JC_rev~"
 												}
@@ -7712,13 +7713,13 @@
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
 
 												}
@@ -7730,12 +7731,12 @@
 												"name" : "Audiomix",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
-														"proportion" : 0.39
+														"proportion" : 0.39,
+														"type" : "gradient"
 													}
 
 												}
@@ -7749,12 +7750,12 @@
 													"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 													"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
 														"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-														"angle" : 270.0,
-														"proportion" : 0.39
+														"proportion" : 0.39,
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
@@ -8123,9 +8124,8 @@
 								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"patching_rect" : [ 192.0, 121.0, 64.0, 22.0 ],
 									"text" : "ml.markov"
 								}
@@ -8157,8 +8157,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9275,8 +9275,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9346,8 +9346,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9418,7 +9418,7 @@
 																	"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 50.0, 216.5, 208.0, 71.0 ],
-																	"setfilter" : [ 0, 1, 1, 0, 0, 10250.0, 0.870536029338837, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+																	"setfilter" : [ 0, 1, 1, 0, 0, 0.000099999997474, 0.870536029338837, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 																	"varname" : "filtergraph~"
 																}
 
@@ -9563,8 +9563,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9969,8 +9969,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10040,8 +10040,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10112,7 +10112,7 @@
 																	"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 50.0, 216.5, 208.0, 71.0 ],
-																	"setfilter" : [ 0, 1, 1, 0, 0, 1917.0, 0.870536029338837, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+																	"setfilter" : [ 0, 1, 1, 0, 0, 0.000099999997474, 0.870536029338837, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 																	"varname" : "filtergraph~"
 																}
 
@@ -10257,8 +10257,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10639,8 +10639,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10734,8 +10734,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10806,7 +10806,7 @@
 																	"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 50.0, 216.5, 208.0, 71.0 ],
-																	"setfilter" : [ 0, 1, 1, 0, 0, 166.0, 0.870536029338837, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+																	"setfilter" : [ 0, 1, 1, 0, 0, 0.000099999997474, 0.870536029338837, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 																	"varname" : "filtergraph~"
 																}
 
@@ -10951,8 +10951,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11999,8 +11999,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15519,14 +15519,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 267.0, 1212.0, 599.0 ],
+						"rect" : [ 80.0, 267.0, 1212.0, 599.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15837,8 +15837,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15956,8 +15956,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -16469,8 +16469,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -17814,8 +17814,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -17859,8 +17859,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18038,8 +18038,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -18326,7 +18326,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 301.0, 1096.0, 324.0, 26.0 ],
-													"text" : "0 2 4 5 7 9 10"
+													"text" : "0 2 4 5 7 9 11"
 												}
 
 											}
@@ -18340,7 +18340,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 301.0, 1068.0, 324.0, 26.0 ],
-													"text" : "1 0 1 0 1 1 0 1 0 1 1 0"
+													"text" : "1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1."
 												}
 
 											}
@@ -18414,8 +18414,8 @@
 													"id" : "obj-17",
 													"maxclass" : "preset",
 													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "preset", "int", "preset", "int" ],
+													"numoutlets" : 5,
+													"outlettype" : [ "preset", "int", "preset", "int", "" ],
 													"patching_rect" : [ 110.0, 846.0, 268.0, 28.0 ],
 													"preset_data" : [ 														{
 															"number" : 1,
@@ -18969,8 +18969,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -20084,8 +20084,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -20679,8 +20679,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -20973,8 +20973,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -21190,8 +21190,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -21465,8 +21465,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -21537,7 +21537,7 @@
 													"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 50.0, 216.5, 208.0, 71.0 ],
-													"setfilter" : [ 0, 1, 1, 0, 0, 200.0, 0.870536029338837, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+													"setfilter" : [ 0, 1, 1, 0, 0, 0.000099999997474, 0.870536029338837, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 													"varname" : "filtergraph~"
 												}
 
@@ -21682,8 +21682,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -22465,12 +22465,8 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "JC_rev~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bucket",
-				"bootpath" : "~/Documents/teaching/MUSC4525/code/MSRA-5525/Max 09 - Generative",
+				"bootpath" : "~/Documents/code/Max/github/MaxIntro/Max 08 - Generative",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -22483,21 +22479,17 @@
 			}
 , 			{
 				"name" : "major.txt",
-				"bootpath" : "~/Documents/teaching/MUSC4525/code/MSRA-5525/Max 09 - Generative",
+				"bootpath" : "~/Documents/code/Max/github/MaxIntro/Max 08 - Generative",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minor.txt",
-				"bootpath" : "~/Documents/teaching/MUSC4525/code/MSRA-5525/Max 09 - Generative",
+				"bootpath" : "~/Documents/code/Max/github/MaxIntro/Max 08 - Generative",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "ml.markov.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
