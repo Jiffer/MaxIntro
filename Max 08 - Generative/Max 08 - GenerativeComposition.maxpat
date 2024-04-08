@@ -6603,7 +6603,31 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 272.0, 224.0, 150.0, 20.0 ],
+									"text" : "myMarkov example"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 192.0, 50.0, 150.0, 33.0 ],
+									"text" : "<- install package ml.star in the package manager"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
@@ -6620,7 +6644,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 398.0, 87.0, 787.0, 574.0 ],
+										"rect" : [ 398.0, 100.0, 787.0, 574.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -8096,7 +8120,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 192.0, 206.0, 74.0, 22.0 ],
+									"patching_rect" : [ 192.0, 224.0, 74.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -8115,7 +8139,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 272.0, 110.0, 150.0, 33.0 ],
+									"patching_rect" : [ 272.0, 128.0, 150.0, 33.0 ],
 									"text" : "walk through help examples"
 								}
 
@@ -8124,9 +8148,10 @@
 								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 192.0, 121.0, 64.0, 22.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 192.0, 139.0, 64.0, 22.0 ],
 									"text" : "ml.markov"
 								}
 
@@ -17849,6 +17874,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -22490,6 +22516,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "ml.markov.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
